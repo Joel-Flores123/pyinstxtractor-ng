@@ -19,3 +19,6 @@ python = ">=3.8,<3.13"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+xdis = { git = "https://github.com/rocky/python-xdis", rev="3372ebaf776c7f0a99c126678420bc7bf8d027ef"}
+
